@@ -63,55 +63,68 @@ The project currently supports the following cryptocurrencies, with their respec
   </thead>
   <tbody>
     <tr>
-      <td><img src="https://cdn.coinranking.com/bOabBYkcX/bitcoin_btc.svg" alt="Bitcoin" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;">Bitcoin</td>
+      <td style="width:20px;height:20px;transform: scale(0.5)"><img src="https://cdn.coinranking.com/bOabBYkcX/bitcoin_btc.svg" alt="Bitcoin" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;"></td>
+      <td>Bitcoin</td>
       <td>BTC</td>
     </tr>
     <tr>
-      <td><img src="https://cdn.coinranking.com/388ehh6kq/bitcoin-sv-1.svg" alt="Bitcoin SV" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;">Bitcoin SV</td>
+      <td style="width:20px;height:20px;transform: scale(0.5)"><img src="https://cdn.coinranking.com/388ehh6kq/bitcoin-sv-1.svg" alt="Bitcoin SV" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;">Bitcoin </td>
+      <td>SV</td>
       <td>BSV</td>
     </tr>
     <tr>
-      <td><img src="https://cdn.coinranking.com/By8ziihX7/bch.svg" alt="Bitcoin Cash" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;">Bitcoin Cash</td>
+      <td style="width:20px;height:20px;transform: scale(0.5)"><img src="https://cdn.coinranking.com/By8ziihX7/bch.svg" alt="Bitcoin Cash" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;">Bitcoin </td>
+      <td>Cash</td>
       <td>BCH</td>
     </tr>
     <tr>
-      <td><img src="https://cdn.coinranking.com/BUvPxmc9o/ltcnew.svg" alt="Litecoin" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;">Litecoin</td>
+      <td style="width:20px;height:20px;transform: scale(0.5)"><img src="https://cdn.coinranking.com/BUvPxmc9o/ltcnew.svg" alt="Litecoin" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;"></td>
+      <td>Litecoin</td>
       <td>LTC</td>
     </tr>
     <tr>
-      <td><img src="https://cdn.coinranking.com/B1oPuTyfX/xrp.svg" alt="Ripple" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;">Ripple</td>
+      <td style="width:20px;height:20px;transform: scale(0.5)"><img src="https://cdn.coinranking.com/B1oPuTyfX/xrp.svg" alt="Ripple" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;"></td>
+      <td>Ripple</td>
       <td>XRP</td>
     </tr>
     <tr>
-      <td><img src="https://cdn.coinranking.com/PyCmduSxt/Dash-D-white_on_blue_circle.svg" alt="Dash" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;">Dash</td>
+      <td style="width:20px;height:20px;transform: scale(0.5)"><img src="https://cdn.coinranking.com/PyCmduSxt/Dash-D-white_on_blue_circle.svg" alt="Dash" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;"></td>
+      <td>Dash</td>
       <td>DASH</td>
     </tr>
     <tr>
-      <td><img src="https://cdn.coinranking.com/rJrKiS_uZ/zec.svg" alt="Zcash" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;">Zcash</td>
+      <td style="width:20px;height:20px;transform: scale(0.5)"><img src="https://cdn.coinranking.com/rJrKiS_uZ/zec.svg" alt="Zcash" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;"></td>
+      <td>Zcash</td>
       <td>ZEC</td>
     </tr>
     <tr>
-      <td><img src="https://cdn.coinranking.com/H1arXIuOZ/doge.svg" alt="Dogecoin" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;">Dogecoin</td>
+      <td style="width:20px;height:20px;transform: scale(0.5)"><img src="https://cdn.coinranking.com/H1arXIuOZ/doge.svg" alt="Dogecoin" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;"></td>
+      <td>Dogecoin</td>
       <td>DOGE</td>
     </tr>
     <tr>
-      <td><img src="https://cdn.coinranking.com/mgHqwlCLj/usdt.svg" alt="Tether" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;">Tether</td>
+      <td style="width:20px;height:20px;transform: scale(0.5)"><img src="https://cdn.coinranking.com/mgHqwlCLj/usdt.svg" alt="Tether" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;"></td>
+      <td>Tether</td>
       <td>USDT</td>
     </tr>
     <tr>
-      <td><img src="https://cdn.coinranking.com/rk4RKHOuW/eth.svg" alt="Ethereum" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;">Ethereum</td>
+      <td style="width:20px;height:20px;transform: scale(0.5)"><img src="https://cdn.coinranking.com/rk4RKHOuW/eth.svg" alt="Ethereum" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;"></td>
+      <td>Ethereum</td>
       <td>ETH</td>
     </tr>
     <tr>
-      <td><img src="https://cdn.coinranking.com/rJfyor__W/etc.svg" alt="Ethereum Classic" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;">Ethereum Classic</td>
+      <td style="width:20px;height:20px;transform: scale(0.5)"><img src="https://cdn.coinranking.com/rJfyor__W/etc.svg" alt="Ethereum Classic" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;">Ethereum </td>
+      <td>Classic</td>
       <td>ETC</td>
     </tr>
     <tr>
-      <td><img src="https://cdn.coinranking.com/behejNqQs/trx.svg" alt="Tron" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;">Tron</td>
+      <td style="width:20px;height:20px;transform: scale(0.5)"><img src="https://cdn.coinranking.com/behejNqQs/trx.svg" alt="Tron" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;"></td>
+      <td>Tron</td>
       <td>TRX</td>
     </tr>
     <tr>
-      <td><img src="https://cdn.coinranking.com/HkLUdilQ7/xtz.svg" alt="Tezos" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;">Tezos</td>
+      <td style="width:20px;height:20px;transform: scale(0.5)"><img src="https://cdn.coinranking.com/HkLUdilQ7/xtz.svg" alt="Tezos" style="max-width:24px; max-height:24px; vertical-align:middle; margin-right:8px;"></td>
+      <td>Tezos</td>
       <td>XTZ</td>
     </tr>
   </tbody>
@@ -127,6 +140,7 @@ The project currently supports the following cryptocurrencies, with their respec
 - 🛠️ Maven or Gradle
 - 🐳 Docker (optional)
 - 🗄️ Supported relational database
+- Enter your API-KEYs in application.yml of core-service in order to have access to third-party API providers (used to fetch current balance and push locally signed transactions into network)
 
 ### ▶️ Running the Project
 
