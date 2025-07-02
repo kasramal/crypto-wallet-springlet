@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: authentication
+server:
+  port: 9990
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZones: http://localhost:8761
+authentication:
+  jwt:
+    signingKey: demohouse-wallet-springlet-secret
+  server:
+    accessTokenValidity: 86400
+    refreshTokenValidity: 259200
+    clients:
+      wallet-core:
+        clientId: core-service
+        clientSecret: core-service-secret
+  users:
+    - username: admin
+      password: adminme
+    - username: demohouse
+      password: ?0demoHouse*
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG

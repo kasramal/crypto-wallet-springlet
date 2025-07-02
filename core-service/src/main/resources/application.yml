@@ -1,0 +1,83 @@
+server:
+  port: 8085
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZones: http://localhost:8761
+spring:
+  application:
+    name: core-service
+  jpa:
+    hibernate.ddl-auto: none
+    properties:
+      hibernate:
+        show_sql: true
+        enable_lazy_load_no_trans: true
+
+  datasource:
+    url: jdbc:postgresql://127.0.0.1/wallet-springlet
+    username: postgres
+    password: 123456
+    driverClassName: org.postgresql.Driver
+authentication:
+  resource:
+    clientId: core-service
+    clientSecret: core-service-secret
+  jwt:
+    signingKey: demohouse-wallet-springlet-secret
+wallet:
+  core:
+    transaction:
+      coins:
+        bitcoin:
+          minValue: 500
+        bitcoincash:
+          minValue: 5000
+        bitcoinsv:
+          minValue: 10000
+        dogecoin:
+          minValue: 20000000
+        litecoin:
+          minValue: 100000
+        ethereum:
+          minValue: 100000000
+        ethereumclassic:
+          minValue: 10000000
+        tether:
+          minValue: 100000
+        dash:
+          minValue: 50000
+        zcash:
+          minValue: 5000
+        tron:
+          minValue: 1
+        tezos:
+          minValue: 1
+  crypto:
+    api:
+      retry:
+        max: 1
+      toaManyRequests:
+        waitingTime: 2000
+
+      amberdata:
+        apiKey: <YOUR-API-KEY>
+
+      blockcypher:
+        version: v1
+        coin: btc
+        network: main
+        token: <YOUR-API-KEY>
+
+      cryptoapis:
+        apiKey: <YOUR-API-KEY>
+
+      blockchair:
+        apiKey: <YOUR-API-KEY>

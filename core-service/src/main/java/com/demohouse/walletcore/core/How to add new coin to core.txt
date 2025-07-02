@@ -1,0 +1,33 @@
+1. Change Coin Enum.
+1.1. Add coin (name, iso, icon, ...) to Coin enum.
+1.2. Add Api Providers supporting the coin.
+1.3. Update convertValue method so that your coin values would be converted properly.
+1.4. Add coin name (fa and en) to messages.properties
+1.5. If the coin is a second layer remember to update getBaseCoin and secondLayerValues methods.
+
+2. Implement an AddressGenerator for your coin.
+2.1. Update AddressGeneratorFactory to return an AddressGenerator dedicated to your coin.
+2.2. If you are going to add a bitcoin-like coin supporting p2pkh follow the steps bellow
+2.2.1. Find version byte and wif prefix for your coin; this document would be handful: https://github.com/libbitcoin/libbitcoin-system/wiki/Altcoin-Version-Mappings#bip44-altcoin-version-mapping-table
+2.2.2. Add your coin spec to LegacyAddressVariant enum
+2.2.3. Extend LegacyAddressGenerator and set the variant variable to LegacyAddressVariant value that you have defined previously.
+
+3. Implement EstimatedFee interface for your coin
+3.1. Update getFee method of FeeUtils in order to instantiate a <Coin>Fee as expected.
+
+4. Implement a <Coin>Transaction and <Coin>TransactionBuilder for yourself.
+4.1. If are going to add a bitcoin-like coin or a fork of that you can follow these steps:
+4.1.1. Extend GenericForkTransaction for fork coins such as BitcoinCash.
+4.1.2. Extend GenericTransaction for bitcoin-like coins such as Litecoin.
+4.1.3. Override convertValue method of your extended class.
+4.2. Remember to write a CoinUtils so that the entire project would remain stylish.
+4.3. Write a <Coin>TransactionValidator to validate transaction constraints.
+4.4. Add a case <Coin>: to the factory method of GenericTransactionBuilder.
+4.5. Add your CoinTransactionValidator to TransactionValidator module
+4.6. Note that jumping any of these steps would be the reason of throwing an Coin_NOT_SUPPORTED Exception while pushing a transaction.
+
+5. Update any Api Provider listed in step 1.2. for the coin
+5.1. Implement <ApiProvider><Coin>Helper according to API Documentations
+5.1.1. You can extend ApiProviderGenericHelper for bitcoin-like coins and forks of bitcoin
+
+6. Push your transaction and enjoy the taste of your coffee! :)
